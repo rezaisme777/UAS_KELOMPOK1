@@ -263,6 +263,32 @@ textarea:focus {
   box-shadow: 0 0 6px rgba(25,118,210,0.5);
 }
 
+.wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(25,118,210,0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.wa-float img {
+  width: 35px;
+}
+
+.wa-float:hover {
+  transform: scale(1.1);
+}
+
+
+
 /* =====================
    FOOTER
 ===================== */
